@@ -1,7 +1,6 @@
 import _ from 'lodash';
 import './style.css';
 import User from './modules/add';
-import { addToArray } from './modules/add';
 
 
 const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/b1GI7GiQGpLXMcZYR0Tj/scores'
@@ -10,6 +9,7 @@ const nameInput = document.querySelector('#name');
 const scoreInput = document.querySelector('#score');
 const form = document.querySelector('#form');
 const submit = document.querySelector('#submitBtn');
+const myArray = [];
 
 
 const Post = async (user, score) => {
@@ -25,7 +25,11 @@ const Post = async (user, score) => {
   console.log(data);
 };
 
-
+const addToArray = (name, score) => {
+  const userScore = new User(name, score);
+  myArray.push(userScore);
+  localStorage.setItem('userScores', JSON.stringify(myArray));
+};
 
 form.addEventListener('submit', async (e) => {
   e.preventDefault();
