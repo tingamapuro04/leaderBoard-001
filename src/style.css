@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  left: 0;
+}
+
+header {
+  margin-left: 5%;
+  margin-top: 7%;
+  font-size: 3rem;
+}
+
+.UserUI {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+  margin-top: 10%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.recent {
+  font-size: 2rem;
+}
+
+table {
+  border: 1.5px solid black;
+  width: 90%;
+}
