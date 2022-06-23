@@ -16,3 +16,7 @@ form.addEventListener('submit', async (e) => {
 
 const refresh = document.querySelector('#refresh');
 refresh.addEventListener('click', remoteAPI);
+
+window.addEventListener("DOMContentLoaded", () => {
+  remoteAPI()
+})
