@@ -11,15 +11,18 @@
         <section class="UserUI">
             <div class="received">
                 <p class="recent">Recent scores <span><input id="refresh" type="button" value="Refresh"></span></p>
-                <div id="userData"></div>
+                <div id="userData">
+                </div>
             </div>
             <div class="formSend">
-                <p>Add your score</p>
-                <form id="form">
-                    <input type="text" name="" id="name" placeholder="Your name" required>
-                    <input type="number" name="" id="score" placeholder="Your score" required>
-                    <input type="submit" value="Submit" id="submitBtn">
-                </form>
+                <p id="Add">Add your score</p>
+                <div>
+                    <form id="form">
+                        <input type="text" name="" id="name" placeholder="Your name" required>
+                        <input type="number" name="" id="score" placeholder="Your score" required>
+                        <input type="submit" value="Submit" id="submitBtn">
+                    </form>
+                </div>
             </div>
         </section>
     </main>
