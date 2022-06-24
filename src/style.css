@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  left: 0;
+}
+
+header {
+  margin-left: 5%;
+  margin-top: 3%;
+  font-size: 3rem;
+}
+
+.UserUI {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+  margin-top: 3%;
+  width: 100%;
+  padding-bottom: 10%;
+}
+
+.received {
+  width: 45%;
+  height: 60%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.recent {
+  font-size: 3rem;
+  margin-bottom: 5.4%;
+  letter-spacing: 0.2cm;
+  padding-top: 6%;
+}
+
+table {
+  border: 1.5px solid black;
+  width: 90%;
+}
+
+#refresh {
+  font-size: 1rem;
+  padding: 1% 5%;
+  border: 2.5px solid black;
+}
+
+span {
+  margin-left: 4%;
+}
+
+#userData {
+  width: 100%;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.formSend {
+  width: 30%;
+}
+
+#Add {
+  display: flex;
+  justify-content: end;
+  font-size: 3rem;
+  letter-spacing: 0.156cm;
+  padding-bottom: 18%;
+}
+
+#name,
+#score {
+  padding: 2.5%;
+  font-size: 1rem;
+  font-weight: 650;
+  color: black;
+  width: 80%;
+  margin-bottom: 8%;
+  border: 3px solid black;
+}
+
+#submitBtn {
+  font-size: 1rem;
+  padding: 2% 6%;
+  border: 2.5px solid black;
+}
+
+.list {
+  padding-left: 2%;
+  font-size: 1.3rem;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.list:nth-child(even) {
+  background: rgb(206, 196, 196);
+}
+
+.list-item {
+  list-style: none;
+}
