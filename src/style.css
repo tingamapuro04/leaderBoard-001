@@ -3,6 +3,11 @@
   left: 0;
 }
 
+body {
+  background: rgb(129, 93, 109);
+  background: radial-gradient(circle, rgba(129, 93, 109, 0.3813725319229254) 0%, rgba(194, 206, 222, 1) 100%);
+}
+
 header {
   margin-left: 5%;
   margin-top: 3%;
@@ -46,6 +51,7 @@ table {
   font-size: 1rem;
   padding: 1% 5%;
   border: 2.5px solid black;
+  box-shadow: 5px 5px;
 }
 
 span {
@@ -92,6 +98,7 @@ span {
   font-size: 1rem;
   padding: 2% 6%;
   border: 2.5px solid black;
+  box-shadow: 5px 5px;
 }
 
 .list {
@@ -102,7 +109,11 @@ span {
 }
 
 .list:nth-child(even) {
-  background: rgb(206, 196, 196);
+  background: rgb(158, 155, 155);
+}
+
+.list:nth-child(odd) {
+  background: white;
 }
 
 .list-item {
