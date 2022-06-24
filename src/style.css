@@ -106,6 +106,7 @@ span {
   font-size: 1.3rem;
   padding-top: 1%;
   padding-bottom: 1%;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .list:nth-child(even) {
