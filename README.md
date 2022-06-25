@@ -7,8 +7,6 @@ This is a game where we create a game with a unique ID and thereafter record the
 
 - html, Css, javascript, webpack,APIs.
 
-
-
 ## Getting Started
 To get a local copy up and running, follow these simple steps.
 
