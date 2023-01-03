@@ -1,5 +1,4 @@
-# Project Name
-LeaderBoard App
+# LeaderBoard App
 > Description of the project
 This is a game where we create a game with a unique ID and thereafter record the scores of different players
 
