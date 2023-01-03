@@ -4,16 +4,18 @@ function remoteAPI() {
   fetch(url)
     .then((response) => response.json())
     .then((data) => {
-      const overal = data.result;
+      const mobutu = data.result;
+      const overal = mobutu.slice(mobutu.length - 10);
       let UUser = '';
       overal.forEach((element) => {
         UUser += `
-            <ul class="list">
-                <li class="list-item">${element.user} : ${element.score}</li>
-            </ul>
+            <tr>
+              <th>${element.user}</th>
+              <th>${element.score}</th>
+            </tr>
             `;
       });
-      document.querySelector('#userData').innerHTML = UUser;
+      document.querySelector('.tbody').innerHTML = UUser;
     });
 }
 

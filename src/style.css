@@ -8,6 +8,20 @@ body {
   background: radial-gradient(circle, rgba(129, 93, 109, 0.3813725319229254) 0%, rgba(194, 206, 222, 1) 100%);
 }
 
+main {
+  position: relative;
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  text-decoration: underline #369cfe;
+  color: #2b303a;
+  font-style: oblique;
+}
+
 header {
   margin-left: 5%;
   margin-top: 3%;
@@ -17,29 +31,44 @@ header {
 .UserUI {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 5%;
-  margin-top: 3%;
+  flex-wrap: wrap;
+  gap: 3%;
+  margin-top: 0.4%;
   width: 100%;
-  padding-bottom: 10%;
+  /* padding-bottom: 10%; */
+  padding: 4px;
+  position: absolute;
+  top: 10%;
 }
 
 .received {
-  width: 45%;
-  height: 60%;
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  flex-wrap: wrap;
+}
+
+.divForm {
+  width: 100%;
 }
 
 form {
+  border: none;
+  padding: 5% 0;
+  border-radius: 16px;
   display: flex;
   flex-direction: column;
-  align-items: end;
+  align-items: center;
+  justify-content: space-around;
+  width: 95%;
+  margin: auto;
+  background: #aab;
 }
 
 .recent {
-  font-size: 3rem;
-  margin-bottom: 5.4%;
-  letter-spacing: 0.2cm;
-  padding-top: 6%;
+  font-size: 1.4rem;
+  margin-bottom: 1%;
+  padding-top: 1%;
 }
 
 table {
@@ -50,8 +79,18 @@ table {
 #refresh {
   font-size: 1rem;
   padding: 1% 5%;
-  border: 2.5px solid black;
+  border: none;
+  border-radius: 14px;
   box-shadow: 5px 5px;
+  transition: all 0.4s;
+}
+
+#refresh:hover {
+  color: #fff;
+  background: #ff5a5f;
+  border: none;
+  border-radius: 10px;
+  box-shadow: none;
 }
 
 span {
@@ -59,11 +98,11 @@ span {
 }
 
 #userData {
-  width: 100%;
-  border: 2px solid black;
+  width: 96%;
+  border: none;
   display: flex;
   flex-direction: column;
-  height: 300px;
+  /* height: 300px; */
   overflow-y: auto;
 }
 
@@ -72,15 +111,17 @@ span {
 }
 
 .formSend {
-  width: 30%;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
 }
 
 #Add {
   display: flex;
-  justify-content: end;
-  font-size: 3rem;
-  letter-spacing: 0.156cm;
-  padding-bottom: 18%;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2px;
+  font-size: 1.5rem;
 }
 
 #name,
@@ -90,15 +131,26 @@ span {
   font-weight: 650;
   color: black;
   width: 80%;
-  margin-bottom: 8%;
-  border: 3px solid black;
+  border: none;
+  border-radius: 12px;
+  margin-top: 2%;
+  background: #fff;
 }
 
 #submitBtn {
+  margin-top: 3%;
   font-size: 1rem;
   padding: 2% 6%;
-  border: 2.5px solid black;
   box-shadow: 5px 5px;
+  border: none;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+
+#submitBtn:hover {
+  background: #369cfa;
+  color: #fff;
+  box-shadow: 0 0;
 }
 
 .list {
@@ -110,13 +162,46 @@ span {
 }
 
 .list:nth-child(even) {
-  background: rgb(158, 155, 155);
+  background: indianred;
+  color: blue;
 }
 
-.list:nth-child(odd) {
-  background: white;
-}
+/* .list:nth-child(odd) {
+  background: purple;
+  color: #fff;
+} */
 
 .list-item {
   list-style: none;
+  margin: 1%;
+}
+
+@media (max-width: 550px) {
+  .UserUI {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .received {
+    width: 100%;
+  }
+
+  #userData {
+    margin: auto;
+  }
+
+  .formSend {
+    width: 100%;
+    align-items: center;
+  }
+
+  .divForm {
+    width: 100%;
+  }
+
+  form {
+    width: 100%;
+  }
 }
