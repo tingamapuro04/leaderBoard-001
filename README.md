@@ -17,20 +17,16 @@ A text editor eg vscode, atom etc
 basic knowledge on html, javascript and css.
 
 ### Set Up
-With git, clone the code to your machine, or download the files directly.
-git clone [link](https://github.com/tingamapuro04/leaderBoard-001)
-Once the files are on your machine, open your a terminal of your choice (git bash preffered) and change the directory to leaderBoard-001
-Once done, if your are using vscode the run (code .) to open the folder on a new window of visual studio code
-
-
-### Deployment
-After openning the files, open the terminal and run this command npm start
-
-
+- With git, clone the code to your machine, or download the files directly.
+- git clone [Source Code](https://github.com/tingamapuro04/leaderBoard-001)
+- Once the files are on your machine, open your a terminal of your choice (git bash preffered) and change the directory to leaderBoard-001
+- Once done, if your are using vscode the run (code .) to open the folder on a new window of visual studio code
+- Run the command npm install for the necessary packages
+- After openning the files, open the terminal and run this command npm start
 
 ## Authors
 
-👤 **Author1**
+👤 **Alphonce Mobutu**
 
 - GitHub: [@githubhandle](https://github.com/tingamapuro04)
 - Twitter: [@twitterhandle](https://twitter.com/alphonce_mobutu)
@@ -39,7 +35,7 @@ After openning the files, open the terminal and run this command npm start
 
 Contributions, issues, and feature requests are welcome!
 
-Here is a link where you can add any isssue bout the code [issues page] (https://github.com/tingamapuro04/leaderBoard-001/issues/1)
+Here is a link where you can add any isssue about the code [Open an Issue] (https://github.com/tingamapuro04/leaderBoard-001/issues/1)
 
 ## Show your support
 
