@@ -10,7 +10,7 @@ const form = document.querySelector('#form');
 
 form.addEventListener('submit', async (e) => {
   e.preventDefault();
-  Post(nameInput.value, scoreInput.value);
+  Post(Date(), nameInput.value, scoreInput.value);
   form.reset();
 });
 

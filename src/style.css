@@ -95,6 +95,7 @@ span {
   display: flex;
   flex-direction: column;
   overflow-y: auto;
+  height: 500px;
 }
 
 ::-webkit-scrollbar {
@@ -126,6 +127,10 @@ span {
   border-radius: 12px;
   margin-top: 2%;
   background: #fff;
+}
+
+.tbody {
+  overflow-y: auto;
 }
 
 #submitBtn {
