@@ -10,6 +10,8 @@ This is a game where we create a game with a unique ID and thereafter record the
 - webpack,APIs
 - Bootstrap-5
 
+[Live Demo](https://moonlit-gelato-d37139.netlify.app)
+
 ## Getting Started
 To get a local copy up and running, follow these simple steps.
 
