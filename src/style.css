@@ -163,6 +163,7 @@ span {
 
   #userData {
     margin: auto;
+    height: 300px;
   }
 
   .formSend {
