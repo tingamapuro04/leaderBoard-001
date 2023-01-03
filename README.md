@@ -34,7 +34,7 @@ basic knowledge on html, javascript and css.
 
 Contributions, issues, and feature requests are welcome!
 
-Here is a link where you can add any isssue about the code [Open an Issue] (https://github.com/tingamapuro04/leaderBoard-001/issues/1)
+Here is a link where you can add any isssue about the code [Open an Issue](https://github.com/tingamapuro04/leaderBoard-001/issues/1)
 
 ## Show your support
 
