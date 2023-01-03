@@ -22,12 +22,6 @@ h1 {
   font-style: oblique;
 }
 
-header {
-  margin-left: 5%;
-  margin-top: 3%;
-  font-size: 3rem;
-}
-
 .UserUI {
   display: flex;
   align-items: center;
@@ -35,7 +29,6 @@ header {
   gap: 3%;
   margin-top: 0.4%;
   width: 100%;
-  /* padding-bottom: 10%; */
   padding: 4px;
   position: absolute;
   top: 10%;
@@ -102,7 +95,6 @@ span {
   border: none;
   display: flex;
   flex-direction: column;
-  /* height: 300px; */
   overflow-y: auto;
 }
 
@@ -151,29 +143,6 @@ span {
   background: #369cfa;
   color: #fff;
   box-shadow: 0 0;
-}
-
-.list {
-  padding-left: 2%;
-  font-size: 1.3rem;
-  padding-top: 1%;
-  padding-bottom: 1%;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.list:nth-child(even) {
-  background: indianred;
-  color: blue;
-}
-
-/* .list:nth-child(odd) {
-  background: purple;
-  color: #fff;
-} */
-
-.list-item {
-  list-style: none;
-  margin: 1%;
 }
 
 @media (max-width: 550px) {
