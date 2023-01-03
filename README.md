@@ -4,7 +4,11 @@ This is a game where we create a game with a unique ID and thereafter record the
 
 ## Built With
 
-- html, Css, javascript, webpack,APIs.
+- html
+- Css
+- javascript
+- webpack,APIs
+- Bootstrap-5
 
 ## Getting Started
 To get a local copy up and running, follow these simple steps.
