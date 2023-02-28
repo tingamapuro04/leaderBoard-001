@@ -16,10 +16,10 @@ This is a game where we create a game with a unique ID and thereafter record the
 To get a local copy up and running, follow these simple steps.
 
 ### Prerequisites
-A web browser ( eg Mozilla firefox, Google chrome etc)
-Git => This is a version control system  used for code source management
-A text editor eg vscode, atom etc
-basic knowledge on html, javascript and css.
+- A web browser ( eg Mozilla firefox, Google chrome etc)
+- Git => This is a version control system  used for code source management
+- A text editor eg vscode, atom etc
+- basic knowledge on html, javascript and css.
 
 ### Set Up
 - With git, clone the code to your machine, or download the files directly.
